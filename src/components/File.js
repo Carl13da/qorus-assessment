@@ -34,7 +34,7 @@ const File = ({ file }) => {
 
   return (
     <div style={style.card}>
-      { getUrlExtension(file.url) ? <img src={file.url} style={style.image} /> : <h6>Not an image!</h6>}
+      { getUrlExtension(file.url) ? <img src={file.url} style={style.image} /> : <h6>No preview available</h6>}
       <div style={style.container}>
         <h4>
           <b>Name: {file.name}</b>
