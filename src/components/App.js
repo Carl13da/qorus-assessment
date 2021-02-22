@@ -1,8 +1,8 @@
 /* eslint-disable import/no-named-as-default */
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Files from "../containers/Files";
-import NotFoundPage from "./NotFoundPage";
+import Files from "../containers/Files/Files";
+import NotFoundPage from "./NotFound/NotFoundPage";
 import PropTypes from "prop-types";
 import React from "react";
 import { hot } from "react-hot-loader";

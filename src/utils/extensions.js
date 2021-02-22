@@ -1,4 +1,4 @@
-export function getUrlExtension(url) {
+export function checkImageUrlExtension(url) {
   const splittedUrl = url.split(/[#?]/)[0].split('.').pop().trim();
   
   switch (splittedUrl) {
